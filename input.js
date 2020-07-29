@@ -17,6 +17,14 @@ const handleUserInput = (input) => {
   case 'd':
     connection.write("Move: right");
     break;
+  case 'q':
+    connection.write("Say: Help I'm a snake");
+    break;
+  case 'e':
+    connection.write("Say: I got a good colour");
+    break;
+  case 'f':
+    connection.write("Say: This colour sucks")
   default:
     break;
   }

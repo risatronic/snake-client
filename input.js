@@ -14,4 +14,4 @@ const setupInput = function() {
   return stdin;
 };
 
-module.exports = {setUpInput};
+module.exports = { setupInput };
